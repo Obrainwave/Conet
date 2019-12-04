@@ -1,0 +1,21 @@
+<IfModule mod_rewrite.c>
+# Deny access to .htaccess
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+
+# Disable directory browsing 
+Options -Indexes
+
+# Hide the contents of directories
+IndexIgnore *
+
+RewriteEngine On
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+
+#RewriteRule ^(.*)$/? index.php?url=$1 [PT,L]
+
+</IfModule>
