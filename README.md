@@ -2,18 +2,18 @@
 A Mini PHP Framework for developers
 With Conet you can develop your web app such as static websites, blogging, and some web medium projects. <br><br>
 Conet is very easy to use. It has about a hundred inbuilt functions which can be called in any of your files.<br><br>
-We have created well explained <a href="http://conet.m3tech.com.ng">Documentation</a> for this mini framework to guide the developers how to use it without having issues.
+We have created well explained <a href="http://conet.m3tech.com.ng" target="_blank">Documentation</a> for this mini framework to guide the developers how to use it without having issues.
 We have also created a community where issues, suggestions, corrections, problems and more can be discussed.<br><br>
 
 <h3>Installation</h3>
 <p>
-You can download the zip file or clone it. Go to <a href="http://conet.m3tech.com.ng/#get-started"> Get Started</a> 
+You can download the zip file or clone it. Go to <a href="http://conet.m3tech.com.ng/#get-started" target="_blank"> Get Started</a> 
 on Conet documentation page for full details.
 </p><br>
 
 <h3>Issues</h3>
 <p>
-If you encounter any problem/issue, please kindly go to the <a href="http://conet.m3tech.com.ng/forum/home"> Conet Community</a> and post your issue or problem. 
+If you encounter any problem/issue, please kindly go to the <a href="http://conet.m3tech.com.ng/forum/home" target="_blank"> Conet Community</a> and post your issue or problem. 
 Conet's experts or the author will quickly attend to it. Or if you have any suggestion/correction, please don't hesitate to post it to the community.
 </p><br>
 
