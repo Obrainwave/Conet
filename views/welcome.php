@@ -23,7 +23,7 @@
                 <p data-animation="fadeInUp" data-delay="300ms">
                 This is a lovely PHP MINI Framework which can be used 
                 in developing your small or medium website such as blog platforms. 
-                <?php echo APPNAME ?> has more than 50 inbuilt functions that can be easily used. Read the <a href="http://conet.m3tech.com.ng/" class="link">Documentation</a> for more details.</p>
+                <?php echo APPNAME ?> has about 100 inbuilt functions that can be easily used. Read the <a href="http://conet.m3tech.com.ng/" class="link">Documentation</a> for more details.</p>
                 <div class="welcome-btn-group">
                   <a href="http://conet.m3tech.com.ng/#get-started" class="btn m3tech-btn mx-2" data-animation="fadeInUp" data-delay="500ms" target="_blank">Get Started</a>
                   <a href="http://conet.m3tech.com.ng/" class="btn m3tech-btn mx-2" data-animation="fadeInUp" data-delay="700ms" target="_blank">Documentation</a>
