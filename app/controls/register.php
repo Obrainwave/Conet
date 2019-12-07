@@ -1,7 +1,6 @@
 <?php
 
 try{
-    
     $email = post('email');
     $name = post('name');
     $password = post('password');
@@ -14,7 +13,6 @@ try{
            
             //requireAll($_POST);
             isEmail($email);
-            //min("email", $email);
             minMax('password', $password, 6, 8);
             required('name', $name, $_POST);
             unique('users', 'email', $email);
@@ -30,10 +28,6 @@ try{
         }catch(PDOException $e){
             echo $e->getMessage();
         }
-       
-            
-        
-    
     }
     
 }catch (Exception $e)
@@ -42,5 +36,3 @@ try{
    
     exit;
 }
-
-

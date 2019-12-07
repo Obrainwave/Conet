@@ -4,7 +4,6 @@ if(!auth()){
 }
 $page = pageName('Edit Profile');
 require __DIR__.'/../layouts/header.php'; ?>
-       <!-- ***** Register Area Start ***** -->
        <div>
         <?php 
           message('message');
@@ -13,17 +12,7 @@ require __DIR__.'/../layouts/header.php'; ?>
        </div>
     <section class="book-an-oppointment-area section-padding-100 bg-img bg-gradient-overlay jarallax clearfix" style="background-image: url('img/bg-img/12.jpg');">
         <div class="container" id="contact">
-		 <!--<div class="row">
-                <-- Section Heading --
-                <div class="col-12">
-                    <div class="section-heading">
-					<a href="https://m3tech.com.ng">
-                       <img src="<?php //echo BASEPATH; ?>/img/logo/m3tech-x-logo.jpg" alt="M3 Technology Logo" style="border-radius:5px">
-					</a>
-              
-                </div>
-            </div>
-        </div>-->
+		 
             <div class="row">
                 <!-- Section Heading -->
                 <div class="col-12">

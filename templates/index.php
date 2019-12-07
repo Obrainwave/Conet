@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Conet - A PHP Mini Framework Simple Website and Blog Developement
+ * Conet - A PHP Mini Framework for Simple Website and Blog Developement
  *
  * @package  Conet
  * @author   Olaiwola Akeem <ola@m3tech.com.ng>

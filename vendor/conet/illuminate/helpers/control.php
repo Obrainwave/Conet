@@ -50,10 +50,7 @@ function getAll($table){
         $sql->setFetchMode(PDO::FETCH_ASSOC);
         $rows = $sql->fetchAll();
         return $rows;
-        /*while ($row = $sql->fetch()){
-            return $row;
-            
-        }*/
+        
     }catch(PDOException $e){
         echo $e->getMessage();
     }
@@ -70,10 +67,7 @@ function getAllOrder($table, $orderkey, $order){
         $sql->setFetchMode(PDO::FETCH_ASSOC);
         $rows = $sql->fetchAll();
         return $rows;
-        /*while ($row = $sql->fetch()){
-            return $row;
-            
-        }*/
+        
     }catch(PDOException $e){
         echo $e->getMessage();
     }
@@ -288,11 +282,12 @@ function update($table, array $array, $where, $val, $token)
 
 function updateNoToken($table, array $array, $where, $val)
 {
-    if(isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] === "POST"){
+    if(isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] === "GET"){
         $conn = dbConnect(HOST, USERNAME, PASSWORD, DATABASE);
         try{
             $implode = implode('=?, ', array_keys($array));
             $implode .='=?';
+            
             
             $stmt = $conn->prepare("UPDATE $table SET $implode WHERE $where=?");
             

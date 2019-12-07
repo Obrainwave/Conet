@@ -3,7 +3,7 @@
     redirect('/');
 }
  $page = pageName('Register');
- require __DIR__.'/../layouts/header.php'; ?>
+ require __DIR__.'/../layouts/header.php';?>
        <!-- ***** Register Area Start ***** -->
        <div>
         <?php 
@@ -11,19 +11,9 @@
           message('error');
           ?>
        </div>
-    <section class="book-an-oppointment-area section-padding-100 bg-img bg-gradient-overlay jarallax clearfix" style="background-image: url('img/bg-img/12.jpg');">
+    <section class="book-an-oppointment-area section-padding-100 bg-img bg-gradient-overlay jarallax clearfix" style="background-image: url(../img/logo/m3tech-x-logo.jpg); height: auto">
         <div class="container" id="contact">
-		 <!--<div class="row">
-                <-- Section Heading --
-                <div class="col-12">
-                    <div class="section-heading">
-					<a href="https://m3tech.com.ng">
-                       <img src="<?php //echo BASEPATH; ?>/img/logo/m3tech-x-logo.jpg" alt="M3 Technology Logo" style="border-radius:5px">
-					</a>
-              
-                </div>
-            </div>
-        </div>-->
+		 
             <div class="row">
                 <!-- Section Heading -->
                 <div class="col-12">

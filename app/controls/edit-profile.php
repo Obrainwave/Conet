@@ -13,11 +13,9 @@ try{
     
     if(isMethod('POST')){
        try{
-            //required('email', $email, $_POST);
             requireAll($_POST);
             isEmail($email);
             checkFileSize('image', 2000000);
-            //unique('users', 'email', $email);
             $detail = first('details', 'user_id', auth('id'));
 
             if(empty($detail)){

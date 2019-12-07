@@ -31,7 +31,7 @@
 | domain.
 |--------------------------------------------------------------------------
 */
-    define("BASEPATH", "http://localhost/conet/templates/");
+    define("BASEPATH", "http://localhost/conet3.0/templates/");
 
 /*
 |--------------------------------------------------------------------------
